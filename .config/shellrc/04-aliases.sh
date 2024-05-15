@@ -69,7 +69,6 @@ alias jsp='jq --color . <'
 alias swag-urls="jq '.paths | keys | .[]'"
 
 # curl
-alias curl='curl --user-agent "$(sh-rnd-ua)"'
 alias get='curl --progress-bar -OL'
 alias headers='curl -sI'
 

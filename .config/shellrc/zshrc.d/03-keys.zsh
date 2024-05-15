@@ -7,8 +7,8 @@ zle -N down-line-or-beginning-search
 zle -N edit-command-line
 zle -N exit_zsh
 
-key[Control_Left]="${terminfo[kLFT5]}"
-key[Control_Right]="${terminfo[kRIT5]}"
+#key[Control_Left]="${terminfo[kLFT5]}"
+#key[Control_Right]="${terminfo[kRIT5]}"
 
 [[ -n "${key[Control_Left]}" ]] && bindkey -- "${key[Control_Left]}" backward-word
 [[ -n "${key[Control_Right]}" ]] && bindkey -- "${key[Control_Right]}" forward-word

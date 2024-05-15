@@ -56,7 +56,7 @@ set foldmethod=syntax foldlevelstart=99
 set sessionoptions=curdir,folds,tabpages
 set splitbelow splitright termwinsize=6x0
 set cursorline scrolloff=5 sidescrolloff=5
-set number numberwidth=5 signcolumn=number
+" set number numberwidth=5 signcolumn=number
 set noshowmode switchbuf=useopen,usetab,newtab
 set expandtab smarttab tabstop=4 softtabstop=0
 set nobackup nowritebackup noswapfile noundofile
@@ -361,9 +361,6 @@ let g:startify_skiplist = [
     \ '/.vimrc$',
     \ '/local.md$',
     \ ]
-
-let g:startify_custom_header =
-    \ startify#pad(split(system('inmfortune | cowsay -f skeleton'), '\n'))
 
 
 " editorconfig-vim
