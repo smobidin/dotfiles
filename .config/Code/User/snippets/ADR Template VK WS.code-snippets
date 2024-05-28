@@ -1,0 +1,32 @@
+{
+	"ADR Templaet VK WS": {
+		"prefix": "ADR",
+		"description": "Create ADR file from template",
+		"body": [
+			"# 000N. <>",
+			"",
+			"Date: $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE",
+			"",
+			"## Статус",
+			"",
+			"Черновик | Предложено | Согласовано | Отклонено",
+			"",
+			"Список согласующих:",
+			"",
+			"- [x] [First_name Last_name](corporate e-mail)",
+			"- [x] [First_name Last_name](corporate e-mail)",
+			"- [x] [First_name Last_name](corporate e-mail)",
+			"",
+			"## Контекст",
+			"",
+			"## Решение",
+			"",
+			"## Последствия",
+			"",
+			"## Результат",
+			"",
+			"## Связанные документы",
+			""
+		]
+	}
+}
