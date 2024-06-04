@@ -63,7 +63,7 @@ set nobackup nowritebackup noswapfile noundofile
 set hlsearch incsearch ignorecase smartcase wrapscan
 set encoding=utf-8 fileencoding=utf-8 termencoding=utf-8
 " set completeopt=longest,menuone,noinsert,noselect,preview
-
+set clipboard=unnamedplus
 
 " enable Normal mode keys in ru layout
 set langmap=ФИСВУАПРШОЛДЬТЩЗЙКЫЕГМЦЧНЯ;ABCDEFGHIJKLMNOPQRSTUVWXYZ,фисвуапршолдьтщзйкыегмцчня;abcdefghijklmnopqrstuvwxyz
