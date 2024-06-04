@@ -15,7 +15,8 @@ export LESSCHARSET=utf-8
 export LESS='-giXMRF --incsearch --tabs=4'
 
 export PAGER='less'
-export MANPAGER="sh -c 'col -bx | bat -l man -p'"
+export MANROFFOPT="-c"
+export MANPAGER="sh -c 'col -bx | bat -plman'" man sprintf
 
 # Disable 'less' history file
 export LESSHISTFILE='-'
