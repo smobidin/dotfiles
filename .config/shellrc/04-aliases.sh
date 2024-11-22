@@ -111,7 +111,7 @@ alias dcl='dcc logs -f'
 
 # kitty
 alias kitty-up='curl -L https://sw.kovidgoyal.net/kitty/installer.sh | sh /dev/stdin'
-alias ssh='kitty +kitten ssh'
+alias s='kitty +kitten ssh'
 alias kat='kitty +kitten icat'
 
 # dotfiles
