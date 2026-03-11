@@ -36,7 +36,7 @@ set cmdheight=1
 set pumheight=15
 set shortmess+=c
 set complete-=it
-set shell=/bin/zsh
+set shell=/usr/bin/zsh
 set nrformats-=octal
 set ttimeout notimeout
 set mouse="" mousehide
