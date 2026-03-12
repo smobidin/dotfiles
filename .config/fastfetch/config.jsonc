@@ -180,6 +180,7 @@
     {
       "type": "de",
       "keyIcon": "",
+      "key": "🏞️ Desktop env.",
       "slowVersionDetection": false
     },
     {
@@ -190,31 +191,37 @@
     },
     {
       "type": "wmtheme",
+      "key": "🎨 WM Theme",
       "keyIcon": "󰓸"
     },
     {
       "type": "theme",
+      "key": "🎨 Theme",
       "keyIcon": "󰉼"
     },
     {
       "type": "icons",
+      "key": "🪅 Icons",
       "keyIcon": ""
     },
     {
       "type": "font",
+      "key": "🆎 Font",
       "keyIcon": ""
     },
     {
       "type": "cursor",
+      "key": "🖱️ Cursor",
       "keyIcon": "󰆿"
     },
     {
       "type": "terminal",
       "keyIcon": "",
-      "key": ">_ Terminal"
+      "key": "📟 Terminal"
     },
     {
       "type": "terminalfont",
+      "key": "🔠 Terminal Font",
       "keyIcon": ""
     },
     {
@@ -315,7 +322,7 @@
     {
       "type": "locale",
       "keyIcon": "",
-      "key": "🔠 Locale"
+      "key": "😜 Locale"
     },
     "break",
     {
