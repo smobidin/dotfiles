@@ -173,6 +173,7 @@
     {
       "type": "display",
       "keyIcon": "󰍹",
+      "key": "📺 Display",
       "compactType": "none",
       "preciseRefreshRate": false
     },
