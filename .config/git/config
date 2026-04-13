@@ -1,6 +1,6 @@
 [user]
-    email = sobidin@gmail.com
-    name = Stanislav Obidin
+	email = sobidin@gmail.com
+	name = smobidin
 
 [core]
     editor = vim
@@ -99,3 +99,5 @@
 
 [include]
     path = "aliases"
+[credential]
+	helper = store
