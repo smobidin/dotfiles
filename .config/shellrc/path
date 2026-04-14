@@ -13,3 +13,11 @@ export SHELLRC_HOME="${HOME}"/.config/shellrc
 export PKG_CONFIG_PATH="${PKG_CONFIG_PATH}":/usr/local/lib/pkgconfig
 
 #vi:ft=sh
+
+# opencode
+export PATH=/home/stas/.opencode/bin:$PATH
+
+# NodeJS nvm
+export NVM_DIR="$HOME/.config/nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
